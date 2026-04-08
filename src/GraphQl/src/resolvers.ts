@@ -1,11 +1,12 @@
-import { books } from "./data.js";
+import { authors, books } from "./data.js";
 
 export const resolvers = {
   Query: {
     books: () => {
       return books;
     },
-
-    authors: () => {},
+    authors: () => {
+      return authors;
+    },
   },
 };
