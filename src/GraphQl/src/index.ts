@@ -3,7 +3,6 @@
 
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
-import { books } from "./data.js";
 import { typeDefs } from "./typeDefs.js";
 import { resolvers } from "./resolvers.js";
 
